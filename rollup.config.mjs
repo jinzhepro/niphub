@@ -4,8 +4,8 @@ import terser from "@rollup/plugin-terser";
 export default {
   input: 'src/index.js',
   output: {
-    name: 'xtools',
-    file: 'dist/xtools.es.js',
+    name: 'niphub',
+    file: 'dist/niphub.es.js',
     format: 'es'
   },
   plugins: [

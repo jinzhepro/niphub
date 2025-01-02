@@ -2,11 +2,11 @@
   "name": "niphub",
   "version": "0.0.2",
   "author": "jinzhepro",
-  "repository": "https://github.com/jinzhepro/xtools.git",
+  "repository": "https://github.com/jinzhepro/niphub.git",
   "scripts": {
-    "build": "rollup -c && rollup -c -f iife -o dist/xtools.iife.js"
+    "build": "rollup -c && rollup -c -f iife -o dist/niphub.iife.js"
   },
-  "main": "dist/xtools.es.js",
+  "main": "dist/niphub.es.js",
   "dependencies": {
     "rollup": "^4.29.1"
   },
