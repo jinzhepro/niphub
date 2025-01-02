@@ -5,16 +5,6 @@
 ## 使用npm安装
 `npm install niphub`
 
-### 引用
-`import niphub from 'niphub'`
-
-### 按需加载,需安装`eslint-plugin-import`
-```js
-import { isString } from 'niphub/src/sources/isString'
-import { checkType } from 'niphub/src/sources/checkType'
-// ...
-```
-
 ## 索引
 
 ### 数据判断
