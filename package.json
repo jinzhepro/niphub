@@ -4,14 +4,19 @@
   "author": "jinzhepro",
   "repository": "https://github.com/jinzhepro/niphub.git",
   "scripts": {
-    "build": "rollup -c && rollup -c -f iife -o dist/niphub.iife.js"
+    "build": "rollup -c && rollup -c -f iife -o dist/niphub.iife.js",
+    "test": "jest"
   },
   "main": "dist/niphub.es.js",
   "dependencies": {
     "rollup": "^4.29.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
     "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-terser": "^0.4.4"
+    "@rollup/plugin-terser": "^0.4.4",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
   }
 }
